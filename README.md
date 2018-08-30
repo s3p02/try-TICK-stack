@@ -51,7 +51,7 @@ sudo systemctl restart influxdb
 ```
 
 ```
-influx -username 'srpa3180' -password '$Rpa3180'
+influx -username 'user_name' -password 'pass_word'
 ```
 
 # Install Telegraf: on Ubuntu
