@@ -84,3 +84,43 @@ Start Telegraf:
 sudo systemctl restart telegraf
 
 ```
+
+
+```
+influx -username 'user_name' -password 'pass_word'
+```
+
+```
+show databases
+
+use telegraf
+
+show measurements
+
+```
+
+# Install Kapacitor:
+
+```
+wget https://dl.influxdata.com/kapacitor/releases/kapacitor_1.5.1_amd64.deb
+
+sudo dpkg -i kapacitor_1.5.1_amd64.deb
+
+sudo apt-get update && sudo apt-get install kapacitor	
+```
+Locate the [[influxdb]] section and enter InfluxDb user_name & pass_word:
+
+```
+sudo vim /etc/kapacitor/kapacitor.conf
+```
+
+```
+sudo systemctl start kapacitor
+```
+
+```
+kapacitor list tasks
+```
+
+
+
