@@ -1,5 +1,14 @@
 # try-TICK-stack
-trying out tick stack
+Trying out tick stack
+
+Telegraf - Agent that writes to InfluxDb, collects and reports metrics
+
+InfluxDb - Timeseries Database,SCHEMA on the fly
+
+Chronograf - UI
+
+Kapacitor - Real-Time Streaming Data Processing Engine
+
 
 Why choose InfluxDb:
 
