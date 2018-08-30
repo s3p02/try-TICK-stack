@@ -122,5 +122,17 @@ sudo systemctl start kapacitor
 kapacitor list tasks
 ```
 
+# Install Chronograf:
 
+```
+wget https://dl.influxdata.com/chronograf/releases/chronograf_1.2.0~beta5_amd64.deb
 
+sudo dpkg -i chronograf_1.2.0~beta5_amd64.deb
+
+sudo systemctl start chronograf
+
+```
+
+Defaults to port 8888, no config available as of now, will be in future versions. Enable port 8888
+
+http://your_server_ip:8888 or http://localhost:8888 if you've installed it locally.
