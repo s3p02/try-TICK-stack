@@ -9,7 +9,7 @@ Chronograf - UI
 Kapacitor - Real-Time Streaming Data Processing Engine
 
 
-Why choose InfluxDb:
+## Why choose InfluxDb:
 
 	1. Easy to get started
 	2. Familiar query syntax
