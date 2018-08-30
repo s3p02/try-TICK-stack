@@ -57,7 +57,7 @@ sudo vim /etc/influxdb/influxdb.conf
 ```
 sudo systemctl restart influxdb
 ```
-
+Influx CLI
 ```
 influx -username 'user_name' -password 'pass_word'
 ```
@@ -94,6 +94,7 @@ sudo systemctl restart telegraf
 ```
 
 
+Influx CLI
 ```
 influx -username 'user_name' -password 'pass_word'
 ```
