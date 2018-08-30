@@ -35,7 +35,8 @@ CREATE USER "user_name" WITH PASSWORD 'pass_word' WITH ALL PRIVILEGES
 See Users created:
 
 
-```show users
+```
+show users
 
 ```
 Edit Config: Locate the [http] section, uncomment the auth-enabled option, and set its value to true 
