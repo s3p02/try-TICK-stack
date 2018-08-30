@@ -19,10 +19,10 @@ Kapacitor - Real-Time Streaming Data Processing Engine
 	6. Not just a Db: Entire platform available TICK stack
 	7. Can be used with Grafana
 
-Influx: Easier compared to Casandra, MongoDb, elastic and redis in terms of effort required, extra work, overhead with HIGH write & HIGH querying 
+## Influx: Easier compared to Casandra, MongoDb, elastic and redis in terms of effort required, extra work, overhead with HIGH write & HIGH querying 
 
 
-# Install INfluxDb: on Ubuntu
+## 1. Install INfluxDb: on Ubuntu
 
 ```
 sudo apt-get install influxdb
@@ -62,7 +62,7 @@ Influx CLI
 influx -username 'user_name' -password 'pass_word'
 ```
 
-# Install Telegraf: on Ubuntu
+## 2. Install Telegraf: on Ubuntu
 
 
 ``` wget https://dl.influxdata.com/telegraf/releases/telegraf_1.7.4-1_amd64.deb
@@ -108,7 +108,7 @@ show measurements
 
 ```
 
-# Install Kapacitor:
+## 3. Install Kapacitor:
 
 ```
 wget https://dl.influxdata.com/kapacitor/releases/kapacitor_1.5.1_amd64.deb
@@ -131,7 +131,7 @@ sudo systemctl start kapacitor
 kapacitor list tasks
 ```
 
-# Install Chronograf:
+## 4. Install Chronograf:
 
 ```
 wget https://dl.influxdata.com/chronograf/releases/chronograf_1.2.0~beta5_amd64.deb
