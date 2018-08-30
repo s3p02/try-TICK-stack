@@ -1,5 +1,4 @@
-# try-TICK-stack
-Trying out tick stack
+# Trying out tick stack
 
 Telegraf - Agent that writes to InfluxDb, collects and reports metrics
 
